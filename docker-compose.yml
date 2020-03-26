@@ -1,0 +1,6 @@
+version: '3'
+services:
+  relay:
+    image: altertech/relay-gmail:1
+    ports:
+      - "2225:25"

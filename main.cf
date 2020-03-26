@@ -1,0 +1,10 @@
+smtpd_relay_restrictions = permit_mynetworks, defer_unauth_destination
+biff = no
+append_dot_mydomain = no
+readme_directory = no
+smtpd_use_tls=no
+recipient_delimiter = +
+compatibility_level = 2
+inet_protocols = ipv4
+mynetworks = 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16
+mydestination =

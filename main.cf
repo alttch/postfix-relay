@@ -8,3 +8,4 @@ compatibility_level = 2
 inet_protocols = ipv4
 mynetworks = 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16
 mydestination =
+maximal_queue_lifetime = 0
